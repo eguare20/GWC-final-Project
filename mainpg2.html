@@ -8,24 +8,24 @@
 <style>
 /* drop down menu */
 .dropbtn {
-    background-color: black;
+    background-color: lightgrey;
     color: white;
     padding: 20px;
     font-size: 24px;
-    border: none;
+
 }
 
 .dropdown {
+    padding: 20px;
     position: relative;
     display: inline-block;
 }
 
 .dropdown-content {
-    vertical-align: middle;
     display: none;
     position: absolute;
     background-color: lightgrey;
-    min-width: 177.5px;
+    width: 177.5px;
     z-index: 1;
 }
 
@@ -44,46 +44,6 @@
 }
 /* end of css for drop down*/
 
-
-
-
-/*drop down 2
-.drpbut {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-    border: none;
-}
-
-.drpdown {
-    position: relative;
-    display: inline-block;
-}
-
-.drpcon {
-    vertical-align: middle;
-    display: none;
-    position: absolute;
-    background-color: lightgrey;
-    min-width: 177.5px;
-    z-index: 1;
-}
-
-.drpcon a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.drpcon a:hover {background-color: white;}
-.drpdown:hover .drpcon {display: block;}
-.drpdown:hover .drpbut {background-color: grey;}
-
-
-}
-/*end of drop down 2*/
 
 
 * {box-sizing: border-box;}
@@ -133,7 +93,8 @@ img {
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding-top: 30px;
+  padding-left: 20px;
   position: absolute;
   top: 0;
 }
@@ -161,6 +122,8 @@ img {
   animation-duration: 1.5s;
 }
 
+
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -178,17 +141,20 @@ img {
 </style>
 
 
-
-
-
 </head>
+
+
+
+
+
 <body>
 
-
+<!--heading-->
 <div>
   <h1><center>Reduce, Reuse, Recycle</center></h1>
 </div>
 
+<!--button 1-->
 <center>
 <div>
   <div class="dropdown">
@@ -202,7 +168,7 @@ img {
 </div>
 </div>
 
-
+<!--button 2-->
 <div class="dropdown">
   <button class="dropbtn">Live Better</buttn>
     <div class="dropdown-content">
@@ -221,7 +187,7 @@ img {
 
 
 
-
+<!--slideshow-->
 <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -245,6 +211,7 @@ img {
 </div>
 <br>
 
+<!--dots-->
 <div style="text-align:center">
   <span class="dot"></span>
   <span class="dot"></span>
@@ -252,7 +219,7 @@ img {
 </div>
 
 
-
+<!--js for slides-->
 <script>
 var slideIndex = 0;
 showSlides();
