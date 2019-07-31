@@ -1,8 +1,72 @@
 <DOCTYPE html>
 <head>
+  <style>
+  /* drop down menu */
+  .dropbtn {
+      background-color: lightgrey;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+
+  }
+
+  .dropdown {
+      padding: 20px;
+      position: relative;
+      display: inline-block;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: lightgrey;
+      width: 177.5px;
+      z-index: 1;
+  }
+
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .dropdown-content a:hover {background-color: white;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: grey;}
+
+  </style>
 </head>
 <body>
   <h1 id = "Website_Title"><center> Reduce, Reuse, Recycle </center> </h1>
+
+  <!--button 1-->
+  <center>
+  <div>
+    <div class="dropdown">
+      <button class="dropbtn">Save Money</button>
+      <div class="dropdown-content">
+        <a href="">Cars</a>
+        <a href="">House</a>
+        <a href="">Food</a>
+        <a href="">General</a>
+      </div>
+    </div>
+
+  <!--button 2-->
+    <div class="dropdown">
+      <button class="dropbtn">Live Better</button>
+      <div class="dropdown-content">
+        <a href="">Reduce</a>
+        <a href="">Reuse</a>
+        <a href="">Recycle</a>
+        <a href="">Climate Change</a>
+      </div>
+    </div>
+  </div>
+  </center>
+
+  <!-- end buttons -->
   <h2 id = "Page_Title"> <center> General Saving Help</center> </h2>
   <h3 id = "Tips_List"> Tips to help </h3>
   <ul id = "Tips_Bullets">
