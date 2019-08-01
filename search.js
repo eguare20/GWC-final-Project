@@ -5,22 +5,32 @@ function myFunction () {
   if (value == "cars") {
   window.open("cars2.html");
   }
+
   if (value == "house") {
   window.open("house.html");
   }
+
   if (value == "food") {
   window.open("food.html");
   }
+
   if (value == "general") {
   window.open("generalSavings.html");
   }
+
   if (value == "reduce") {
   window.open("reduce.html");
   }
+
   if (value == "reuse") {
   window.open("Reuse.html");
   }
+
   if (value == "recycle") {
   window.open("recycle.html");
+  }
+
+  if (value == "climate change") {
+  window.open("climate_change.html");
   }
 }
