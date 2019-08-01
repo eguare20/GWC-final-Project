@@ -13,26 +13,31 @@
 }
 
 #Earth {
+  text-align: center;
   color: #73877B;
   font-size: 25px;
 }
 
 #Earth_Info{
+  text-align: center;
   color: #73877B;
   font-size: 20px
 }
 
 #CliCha{
+  text-align: center;
   color: #73877B;
   font-size: 25px;
 }
 
 #HumIm{
+  text-align: center;
   color: #73877B;
   font-size: 25px;
 }
 
 #CliCha_Info{
+  text-align: center;
   color: #73877B;
   font-size: 20px;
 }
