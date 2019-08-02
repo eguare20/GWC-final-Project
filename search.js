@@ -4,8 +4,8 @@ function myFunction () {
   var value = search_box.value;
   console.log ("value is "+value);
   var isValid = false;
-  var cars = ["cars", "gas", "tank", "drive", "driving", "driver", "transportation", "travel"];
-  var house = ["house", "home", "room", "heating", "bathroom", "bed", "bedroom", "bathroom"];
+  var cars = ["cars","car", "gas", "tank", "drive", "driving", "driver", "transportation", "travel"];
+  var house = ["house", "houses", "homes", "home", "room", "heating", "bathroom", "bed", "bedroom", "bathroom"];
   var food = ["food", "meals", "produce", "grocery", "store", "kitchen", "meal", "vegetables", "fruit", "cook", "cooking", "coupons"];
   var general = ["general savings", "general","budget", "overall", "credit"];
   var reduce = ["reduce", "less", "plan", "decrease", "amount", "donate"];
