@@ -128,14 +128,54 @@
       opacity: .75;
     }
 
+    #header {
+      background-color: #bfedc1;
+      height: 300px ;
+      text-shadow: 2px 2px 2px #333;
+      padding-bottom: 40px;
+      margin: 0 auto 40px;
+      overflow: hidden;
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 0 0 85% 85% / 30%;
+    }
+
+    #header a {
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+    }
+
+    #header a:hover {
+     color: #7e4e60;
+    }
+
+    #header-title {
+      font-family: 'Dancing Script', cursive;
+      font-size: 20px;
+      padding-top: 80px;
+      display: block;
+     font-weight: bold;
+     margin-left: 16px;
+    }
+
+    body{
+      margin: 0;
+      margin-bottom: 50px;
+    }
     /* css template ends  */
 
   </style>
 </head>
 <body>
-  <img id="logo1" src="reduce, reuse, recycle.png">
-  <img id="logo2" src="reduce, reuse, recycle.png">
-  <h1 id = "Website_Title"><a href = mainpg2.html><center> Reduce, Reuse, Recycle </center> </a></h1>
+  <!-- header-->
+  <div id="header">
+    <div class="container"></div>
+    <img id="logo1" src="reduce, reuse, recycle.png">
+    <img id="logo2" src="reduce, reuse, recycle.png">
+    <center><a id="header-title" href="mainpg2.html"><u><h1>Reduce, Reuse, Recycle<h1></u></a></center>
+  </div>
+<!-- end header-->
   <!--start search box -->
   <center>  <div class="search-container">
       <input id = "search_box" type="text" placeholder="Search.." name="search">
