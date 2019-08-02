@@ -75,7 +75,7 @@
   /* Caption text */
   .text {
     border-radius: 25px;
-    background-color: #7e4e60;
+    background-color: #9684a1;
     color: #f2f2f2;
     font-size: 60px;
     padding: 8px 12px;
@@ -136,9 +136,11 @@
     .text {font-size: 11px}
   }
 
+/* header css*/
   #logo1 {
+    padding-top: 80px;
     width: 160px;
-    height: 150px;
+    height: 190px;
     float:left;
     margin: 0;
     padding-left: 30px;
@@ -146,25 +148,71 @@
   }
 
   #logo2{
+    padding-top: 80px;
     width: 160px;
-    height: 150px;
+    height: 190px;
     float:right;
     margin: 0;
     padding-right: 30px;
     padding-left: 0px;
     opacity: .75;
   }
+
+  #header {
+    background-image: linear-gradient( 135deg, #73877B 10%, #bfedc1 100%);
+    height: 300px ;
+    text-shadow: 1px 1px 1px #333;
+    padding-bottom: 40px;
+    margin: 0 auto 40px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 0 0 85% 85% / 30%;
+  }
+
+  #header a {
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+  }
+
+  #header a:hover {
+   color: #4b3b40;
+  }
+
+  #header-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding-top: 80px;
+    display: block;
+   font-weight: bold;
+   margin-left: 16px;
+  }
+
+  body{
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+/* end of header css*/
+
   </style>
 
 </head>
 
+
 <body>
 
-<!--heading-->
+  <!-- header-->
+  <div id="header">
+    <div class="container"></div>
+    <img id="logo1" src="reduce, reuse, recycle.png">
+    <img id="logo2" src="reduce, reuse, recycle.png">
+    <center><a id="header-title" href="mainpg2.html"><u><h1>Reduce, Reuse, Recycle<h1></u></a></center>
+  </div>
+<!-- end header-->
+
 <div>
-  <img id="logo1" src="reduce, reuse, recycle.png">
-  <img id="logo2" src="reduce, reuse, recycle.png">
-  <h1><center>Reduce, Reuse, Recycle</center></h1>
 <!--start search box -->
   <center><div class="search-container">
     <input id = "search_box" type="text" placeholder="Search.." name="search">
