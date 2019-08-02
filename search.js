@@ -23,10 +23,12 @@ function myFunction () {
   if (value == "transportation") {
   window.open("cars2.html");
   }
-
   if (value == "travel") {
   window.open("cars2.html");
   }
+
+
+
   if (value == "house") {
   window.open("house.html");
   }
@@ -51,6 +53,7 @@ function myFunction () {
   if (value == "bedroom") {
   window.open("house.html");
   }
+
 
   if (value == "food") {
   window.open("food.html");
@@ -92,6 +95,7 @@ function myFunction () {
   window.open("food.html");
   }
 
+
   if (value == "general") {
   window.open("generalSavings.html");
   }
@@ -104,6 +108,7 @@ function myFunction () {
   if (value == "credit") {
   window.open("generalSavings.html");
   }
+
 
   if (value == "reduce") {
   window.open("reduce.html");
@@ -127,6 +132,7 @@ function myFunction () {
   window.open("reduce.html");
   }
 
+
   if (value == "reuse") {
   window.open("Reuse.html");
   }
@@ -143,6 +149,7 @@ function myFunction () {
   window.open("Reuse.html");
   }
 
+
   if (value == "recycle") {
   window.open("recycle.html");
   }
@@ -152,6 +159,7 @@ function myFunction () {
   if (value == "recyclable") {
   window.open("recycle.html");
   }
+
 
   if (value == "climate change") {
   window.open("climate_change.html");
@@ -172,7 +180,5 @@ function myFunction () {
   window.open("climate_change.html");
   }
 
-  else {
-    alert ("not a valid search")
-  }
+
 }
