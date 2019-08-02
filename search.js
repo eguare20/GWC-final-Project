@@ -1,6 +1,3 @@
-function alertFunction() {
-  alert("Hello! I am an alert box!");
-}
 
 function myFunction () {
   var search_box = document.getElementById ("search_box");
@@ -72,8 +69,8 @@ function myFunction () {
     }
   }
 
-  if (isValid = false) {
-     alertFunction;
+  if (isValid == false) {
+     alert ("Invalid Search. Please try again!");
   }
 
 }
