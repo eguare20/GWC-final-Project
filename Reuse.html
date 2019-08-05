@@ -161,6 +161,7 @@
     body{
       margin: 0;
       margin-bottom: 50px;
+        height:100vh;
     }
 
     li{
@@ -170,6 +171,68 @@
       display: inline;
       vertical-align: middle;
     }
+
+    /*footer css*/
+
+    #footer {
+      height: 350px;
+      margin-top: 30px;
+     background-color: #2f2f2f;
+     padding: 50px 0;
+     margin-bottom: 0;
+     padding-bottom: 10;
+     overflow: hidden;
+    }
+
+    .column1 {
+    max-width: 300px;
+     display: inline-block;
+     vertical-align: top;
+     float: left;
+     margin-top: 0;
+    }
+
+    .column2 {
+    line-height: 25px;
+    width: 300px;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-top: 0;
+    /*padding-right: 30px;*/
+    }
+
+    #footer h4 {
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+    }
+
+    #footer p {
+     color: white;
+    }
+
+    .container {
+     max-width: 1000px;
+     margin: 0 auto;
+    }
+
+    .column2 a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .column2 a:hover{
+      text-decoration: underline;
+    }
+
+    .column2 img{
+      width: 56px;
+      height: 52px;
+      padding: 5px;
+    }
+
+    /* end of footer css*/
     /* css template ends  */
 
   </style>
@@ -255,4 +318,34 @@
     </style>
 
   </ul>
+
+  <!--footer-->
+  <div id="footer">
+    <div class="container">
+      <div class="column1">
+        <h4 style="color: #bfedc1;"><u> Mission Statement</u></h4>
+        <p> We created <i>Reduce, Reuse, Recycle</i>
+          in order to help people realize the
+          importance of recycling as well as how
+          they can save money. We hope that our website
+          is a valuable resource to those who need ideas
+          for how they can live better.
+          </p>
+      </div>
+
+  <div class="column2">
+    <h4 style="color: #bfedc1;"><u>Links</u></h4>
+    <a href="https://www.instagram.com/destinygabrielle_/">
+      <img src="inst.jpg"></a>
+      <br>
+    <a href=" https://www.linkedin.com/in/maria-n-ba1162189/">
+      <img style="width: 52px; height: 47px;" src="link.jpg">
+    </a>
+    <br>
+    <a href="sources.html">Our Sources</a>
+
+  </div>
+  </div>
+  </div>
+  <!-- end footer-->
 </body>
