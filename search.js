@@ -4,14 +4,15 @@ function myFunction () {
   var value = search_box.value;
   console.log ("value is "+value);
   var isValid = false;
-  var cars = ["cars","car", "gas", "tank", "drive", "driving", "driver", "transportation", "travel"];
+  var cars = ["cars","car", "gas", "tank", "drive", "driving", "driver", "transportation", "travel", "vroom", "beep"];
   var house = ["house", "houses", "homes", "home", "room", "heating", "bathroom", "bed", "bedroom", "bathroom"];
   var food = ["food", "meals", "produce", "grocery", "store", "kitchen", "meal", "vegetables", "fruit", "cook", "cooking", "coupons"];
   var general = ["general savings", "general","budget", "overall", "credit"];
   var reduce = ["reduce", "less", "plan", "decrease", "amount", "donate"];
   var reuse = ["reuse", "used", "compost", "donation", "reusable"];
-  var recycle = ["recycle", "trash", "recyclable"]
+  var recycle = ["recycle", "trash", "recyclable"];
   var climate_change = ["climate change", "climate", "global warming", "environment", "weather", "animals", "wildlife"];
+  var sources = ["sources", "source", "info"];
 
   for (var i = 0; i < cars.length; i++){
     if (value == cars[i]){
@@ -68,7 +69,12 @@ function myFunction () {
       window.open("climate_change.html");
     }
   }
-
+  for (var i = 0; i < sources.length; i++){
+    if (value == sources[i]){
+      isValid = true;
+      window.open ("sources.html");
+    }
+  }
   if (isValid == false) {
      alert ("Invalid Search. Please try again!");
   }
