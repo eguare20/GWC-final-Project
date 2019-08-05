@@ -53,17 +53,17 @@
 
     #Tips_List {
       color: #73877B;
-      font-size: 25px;
+      font-size: 30px;
     }
 
     #Apps {
       color: #73877B;
-      font-size: 25px;
+      font-size: 30px;
     }
 
     #Links{
       color: #73877B;
-      font-size: 25px
+      font-size: 30px
     }
 
     #Tips_Bullets{
@@ -72,14 +72,11 @@
       padding-top: 10px;
       padding-bottom: 10px;
       box-shadow: 10px 10px 5px grey;
+      font-size:20px;
     }
 
-    #Apps_Bullets{
-      background-color: #7e4e60;
-      border-radius: 20px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      box-shadow: 10px 10px 5px grey;
+    .Apps_Bullets_Item{
+      font-size:20px;
     }
 
     #Links_Bullets{
@@ -88,6 +85,7 @@
       padding-top: 10px;
       padding-bottom: 10px;
       box-shadow: 10px 10px 5px grey;
+      font-size:20px;
     }
 
     #Links_Bullets_Item{
@@ -231,8 +229,8 @@
     <li id = "Tips_Bullets_Item"> Use cash only -- this helps you to stick to your budget </li>
   </ul>
   <h3 id = "Apps"> Apps to help</h3>
-    <p id = "Apps_Bullets_Item"><a href="https://www.joinhoney.com/"><img class = app_image src = "https://lh3.googleusercontent.com/RAJJ1tQvIm8nT90qSd8eiU7SoWJifeTsPFPDUeCzcLiTDKcpFXhlsvoJCFIP4ZE61DckltS-=w128-h128-e365" width=50 height=50></a> Honey: a free browser extension that automatically finds and applies coupon codes at checkout on more than 30,000 shopping sites </p>
-    <p id = "Apps_Bullets_Item"><a href ="https://digit.co/"> <img class=app_image src = "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/5b/a7/37/5ba737e3-5bf2-564e-9f04-0408bcec2f5f/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-0-4.png/600x600wa.png" width = 50 height = 50> </a> Digit: essentially makes money-saving decisions on your behalf by looking at your current income and expenditures and then calculating what you can afford to save </p>
+    <p class = "Apps_Bullets_Item"><a href="https://www.joinhoney.com/"><img class = "app_image" src = "https://lh3.googleusercontent.com/RAJJ1tQvIm8nT90qSd8eiU7SoWJifeTsPFPDUeCzcLiTDKcpFXhlsvoJCFIP4ZE61DckltS-=w128-h128-e365" width=50 height=50></a> Honey: a free browser extension that automatically finds and applies coupon codes at checkout on more than 30,000 shopping sites </p>
+    <p class = "Apps_Bullets_Item"><a href ="https://digit.co/"> <img class="app_image" src = "data:image/png;base64,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" width = 50 height = 50> </a> Digit: essentially makes money-saving decisions on your behalf by looking at your current income and expenditures and then calculating what you can afford to save </p>
   <h3 id = "Links"> Links to help </h3>
   <ul id = "Links_Bullets">
     <li id = "Links_Bullets_Item"> <a  style= "color: white;" href="https://www.thebalance.com/ways-to-save-money-this-year-2386116"> The Balance: 100 Ways to Start Saving Money Today </a> </li> <!-- copy and paste how many times you need it-->
