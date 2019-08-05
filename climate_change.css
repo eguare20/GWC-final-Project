@@ -15,7 +15,7 @@
 #Earth {
   text-align: center;
   color: #73877B;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #Earth_Info{
@@ -27,13 +27,13 @@
 #CliCha{
   text-align: center;
   color: #73877B;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #HumIm{
   text-align: center;
   color: #73877B;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #CliCha_Info{
@@ -63,11 +63,7 @@
 }
 
 #Links_Bullets{
-  background-color: #7e4e60;
-  border-radius: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  box-shadow: 10px 10px 5px grey;
+  font-size: 20px;
 }
 
 #Links_Bullets_Item{
