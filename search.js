@@ -8,7 +8,7 @@ function myFunction () {
   var cars = ["cars","car", "gas", "tank", "drive", "driving", "driver", "transportation", "travel", "vroom", "beep", "automobile", "bus", ];
   var house = ["house", "houses", "homes", "home", "room", "heating", "bathroom", "bed", "bedroom", "bathroom", "residence", "buidling", "building", "property"];
   var food = ["food", "meals", "produce", "grocery", "store", "kitchen", "meal", "vegetables", "fruit", "cook", "cooking", "coupons", "cuisine", "nutrition", "nutrients", "menu"];
-  var general = ["general savings", "general","budget", "overall", "credit", "money", "funds", "fund", "fundings", ];
+  var general = ["general savings", "general","budget", "overall", "credit", "money", "funds", "fund", "fundings", "provisions" ];
   var reduce = ["reduce", "less", "plan", "decrease", "amount", "donate"];
   var reuse = ["reuse", "used", "compost", "donation", "reusable"];
   var recycle = ["recycle", "trash", "recyclable", "reprocess", "green"];
