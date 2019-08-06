@@ -5,14 +5,14 @@ function myFunction () {
   console.log(value.toLowerCase())
   console.log ("value is "+value);
   var isValid = false;
-  var cars = ["cars","car", "gas", "tank", "drive", "driving", "driver", "transportation", "travel", "vroom", "beep", "automobile", "bus", ];
-  var house = ["house", "houses", "homes", "home", "room", "heating", "bathroom", "bed", "bedroom", "bathroom", "residence", "buidling", "building", "property"];
+  var cars = ["cars","car", "gas", "tank", "drive", "driving", "driver", "transportation", "travel", "vroom", "beep", "automobile", "bus", "beep beep", "vroom vroom", "honk", "honk honk", "horn", "skirt skirt", "screech", "brakes"];
+  var house = ["house", "houses", "homes", "home", "room", "heating", "bathroom", "bed", "bedroom", "bathroom", "residence", "buidling", "building", "property", "air conditioning", "A/C" ];
   var food = ["food", "meals", "produce", "grocery", "store", "kitchen", "meal", "vegetables", "fruit", "cook", "cooking", "coupons", "cuisine", "nutrition", "nutrients", "menu"];
-  var general = ["general savings", "general","budget", "overall", "credit", "money", "funds", "fund", "fundings", "provisions" ];
+  var general = ["general savings", "general", "budget", "overall", "credit", "money", "funds", "fund", "fundings", "provisions" ];
   var reduce = ["reduce", "less", "plan", "decrease", "amount", "donate"];
-  var reuse = ["reuse", "used", "compost", "donation", "reusable"];
+  var reuse = ["reuse", "used", "compost", "donation", "reusable", "rework"];
   var recycle = ["recycle", "trash", "recyclable", "reprocess", "green"];
-  var climate_change = ["climate change", "climate", "global warming", "environment", "weather", "animals", "wildlife"];
+  var climate_change = ["climate change", "climate", "global warming", "environment", "weather", "animals", "wildlife", "temperature"];
   var sources = ["sources", "source", "info", "information"];
 
   for (var i = 0; i < cars.length; i++){
