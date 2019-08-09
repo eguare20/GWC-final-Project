@@ -11,7 +11,7 @@ function myFunction () {
   var general = ["general savings", "general", "budget", "overall", "credit", "money", "funds", "fund", "fundings", "provisions" ];
   var reduce = ["reduce", "less", "plan", "decrease", "amount", "donate", "lessen", "dwindle", "lower"];
   var reuse = ["reuse", "used", "compost", "donation", "reusable", "rework", "repair"];
-  var recycle = ["recycle", "trash", "recyclable", "reprocess", "green", "cardboard", "paper", "metal"];
+  var recycle = ["recycle", "trash", "recyclable", "reprocess", "green", "cardboard", "paper", "metal", "plastic", "plastic water bottle", "plastic water bottles"];
   var climate_change = ["climate change", "climate", "global warming", "environment", "weather", "animals", "wildlife", "temperature", "glaciers", "flood", "natural disasters", "forecast", "seasons"];
   var sources = ["sources", "source", "info", "information"];
 
